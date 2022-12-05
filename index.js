@@ -1,6 +1,23 @@
 $(document).ready(function()
 {
 //banner owl carousel
+$('.dropdown-toggle').mouseover(function() {
+    $('.dropdown-menu').show();
+})
+
+$('.dropdown-toggle').mouseout(function() {
+    t = setTimeout(function() {
+        $('.dropdown-menu').hide();
+    }, 100);
+
+    $('.dropdown-menu').on('mouseenter', function() {
+        $('.dropdown-menu').show();
+        clearTimeout(t);
+    }).on('mouseleave', function() {
+        $('.dropdown-menu').hide();
+    })
+});
+
 $("#banner-area .owl-carousel").owlCarousel({
     items:1,
     loop:true,
