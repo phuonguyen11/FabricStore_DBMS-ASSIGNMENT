@@ -1,0 +1,20 @@
+{
+  "name": "lavietfabric",
+  "version": "1.0.0",
+  "description": "A little part of our big database assignment. Hope it will be okay!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"sass ./sass/style.scss style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuonguyen11/FabricStore_DBMS-ASSIGNMENT.git"
+  },
+  "author": "Banh Ngoc Phuong Uyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phuonguyen11/FabricStore_DBMS-ASSIGNMENT/issues"
+  },
+  "homepage": "https://github.com/phuonguyen11/FabricStore_DBMS-ASSIGNMENT#readme"
+}
