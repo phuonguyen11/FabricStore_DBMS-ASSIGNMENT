@@ -68,4 +68,38 @@ button.button:focus {
   background: aliceblue;
 }
 
+#new-arrivals .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#new-arrivals .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+  scale: 0.8;
+}
+#new-arrivals .owl-carousel .item .product img:hover {
+  transform: scale(1.2);
+}
+#new-arrivals .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#new-arrivals .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#new-arrivals .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #383c54;
+  margin-left: -4rem;
+  padding: 0 1rem;
+}
+#new-arrivals .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#new-arrivals .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #383c54;
+  margin-right: -4rem;
+  padding: 0 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */

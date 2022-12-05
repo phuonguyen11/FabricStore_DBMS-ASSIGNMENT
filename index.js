@@ -10,4 +10,25 @@ $("#banner-area .owl-carousel").owlCarousel({
     dots:true,
 
     });
+$("#new-arrivals .owl-carousel").owlCarousel({
+    loop:true,
+    nav:true,
+    dots:false,
+    responsive:
+    {
+        0:
+        {
+            items:1
+        },
+        400:
+        {
+            items:3
+        },
+        1000:
+        {
+            items:5
+        }
+    }
+});
+
 });
